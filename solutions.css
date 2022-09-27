@@ -16,6 +16,17 @@
     width: 100%;
 }
 
+/* Esercizio 3  */
+.ex-3-square {
+    transition: all 0.5s;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+
+
 
 
 
