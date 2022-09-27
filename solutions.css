@@ -87,13 +87,13 @@
 
 /* Esercizio 10 */
 .ex-10-icon {
-    animation-name: cycling;
+    animation-name: loop;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite; 
 }
 
-@keyframes cycling {
+@keyframes loop {
     0% {
         transform: rotate(360deg);
     }
@@ -114,6 +114,36 @@
         transform: rotate(0deg);
     }
 }
+
+/* Esercizio 11 */
+.ex-11-icon:hover {
+    animation-name: cycling;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes cycling {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    30% {
+        transform: rotate(90deg);
+    }
+
+    60% {
+        transform: rotate(180deg);
+    }
+
+    90% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 
 
 
