@@ -73,6 +73,18 @@
     filter: sepia(70%);
 }
 
+/* Esercizio 9 */
+.ex-9-img {
+    transition: all 2s;
+}
+
+.ex-9-img:hover {
+    border-radius: 20px;
+    filter: grayscale(70%);
+    filter: sepia(70%);
+    transform: scale(1.5);
+}
+
 
 
 
