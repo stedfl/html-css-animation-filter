@@ -85,6 +85,36 @@
     transform: scale(1.5);
 }
 
+/* Esercizio 10 */
+.ex-10-icon {
+    animation-name: cycling;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes cycling {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    25% {
+        transform: rotate(270deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 
 
 
